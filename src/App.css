@@ -1,0 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #ff690f), to(#e8381b));
+  background: linear-gradient(90deg, #ff690f 15%, #e8381b 100%);
+  margin: 0 auto;
+  height: 7.5rem;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+$mainColor: linear-gradient(
+  90deg,
+  rgba(255, 105, 15, 1) 15%,
+  rgba(232, 56, 27, 1) 100%
+);
+
+.container {
+  background: $mainColor;
+  margin: 0 auto;
+  height: 8.5rem;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 2rem 4rem;
+  padding: 1.5rem;
+  border-radius: 3px;
+}
+.searchBar {
+  padding: 1.5px 0;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+}
